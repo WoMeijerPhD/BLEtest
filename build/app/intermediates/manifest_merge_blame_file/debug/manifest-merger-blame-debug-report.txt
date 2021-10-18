@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.signify.hue.reactivebleexample"
+4    android:versionCode="1"
+5    android:versionName="3.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml
+10
+11    <!-- required for API 18 - 30 -->
+12    <uses-permission
+12-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:5:5-7:42
+13        android:name="android.permission.BLUETOOTH"
+13-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:6:13-56
+14        android:maxSdkVersion="30" />
+14-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:7:13-39
+15    <uses-permission
+15-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:8:5-10:42
+16        android:name="android.permission.BLUETOOTH_ADMIN"
+16-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:9:13-62
+17        android:maxSdkVersion="30" />
+17-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:10:13-39
+18
+19    <!-- required for API 23 - 30 -->
+20    <uses-permission-sdk-23
+20-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:13:5-15:42
+21        android:name="android.permission.ACCESS_COARSE_LOCATION"
+21-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:14:13-69
+22        android:maxSdkVersion="30" />
+22-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:15:13-39
+23    <uses-permission-sdk-23
+23-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:16:5-18:42
+24        android:name="android.permission.ACCESS_FINE_LOCATION"
+24-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:17:13-67
+25        android:maxSdkVersion="30" />
+25-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:18:13-39
+26
+27    <!-- API 31+ -->
+28    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+28-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:21:5-76
+28-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:21:22-73
+29    <uses-permission
+29-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:22:5-24:62
+30        android:name="android.permission.BLUETOOTH_SCAN"
+30-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:23:13-61
+31        android:usesPermissionFlags="neverForLocation" />
+31-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:24:13-59
+32
+33    <meta-data
+33-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:45:5-47:29
+34        android:name="flutterEmbedding"
+34-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:46:9-40
+35        android:value="2" />
+35-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:47:9-26
+36
+37    <application
+37-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:26:5-43:19
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] /Users/womeijer/.gradle/caches/transforms-3/fc9a871ea5967930dc25d722dfd1a952/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:28:9-43
+41        android:label="flutter_reactive_ble_example" >
+41-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:27:9-53
+42        <activity
+42-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:29:9-42:20
+43            android:name="com.signify.hue.reactivebleexample.MainActivity"
+43-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:30:13-75
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+44-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:33:13-137
+45            android:exported="true"
+45-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:36:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:34:13-47
+47            android:launchMode="singleTop"
+47-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:31:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:32:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:35:13-55
+50            <intent-filter>
+50-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:38:13-41:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:39:17-68
+51-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:39:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:40:17-76
+53-->/Users/womeijer/development/bletest/BLEtest/android/app/src/main/AndroidManifest.xml:40:27-74
+54            </intent-filter>
+55        </activity>
+56    </application>
+57
+58</manifest>
